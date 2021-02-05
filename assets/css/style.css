@@ -24,3 +24,36 @@
     color: #aaa;
   }
   /* end of navigation */
+  /* footer */
+  .footer {
+    /* background-color: #1b252f; */
+    margin-top: 8%;
+    /* height: 200px; */
+  }
+  .footer .text1{
+    margin-top: 2em;
+    font-size: 20px;
+  }
+  .footer .text{
+    margin-top: 5em;
+    font-size: 20px;
+  }
+  .footer .fab, .fas {
+    font-size: 20px;
+    padding-right: 2em;
+    margin-top: 5em;
+    color: white;
+  }
+  @media only screen and (max-width: 767px) {
+    .footer .text{
+      margin-top: 0.5em;
+      font-size: 16px;
+    }
+    .footer .fab, .fas {
+      margin-top: 0.5em;
+      font-size: 16px;
+      margin-bottom: 0.5em;
+    }
+  }
+
+  /* footer end */

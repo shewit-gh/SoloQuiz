@@ -1,0 +1,26 @@
+/* navigation */
+.navbar {
+    padding: 0.5rem ;
+  }
+  .navbar .navbar-brand {
+    padding: 5px;
+  }
+  .navbar-nav li {
+    padding: 10px 30px ;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    padding: 20px 10px;
+    color: white;
+  }
+  li a {
+    font-family: Verdana, "Geneva", sans-serif;
+    font-size: 18px;
+    margin: auto;
+    letter-spacing: 2.1px;
+    display: block;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    
+    color: #aaa;
+  }
+  /* end of navigation */

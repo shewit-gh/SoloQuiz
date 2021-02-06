@@ -1,0 +1,100 @@
+/* navigation */
+.navbar {
+  padding: 0.5rem;
+}
+.navbar .navbar-brand {
+  opacity: 0.85;
+  font-size: 2rem;
+  padding: 5px;
+  letter-spacing: 2.1px;
+}
+.navbar-nav li {
+  padding: 10px 30px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  padding: 20px 10px;
+  color: white;
+}
+
+li a {
+  font-family: Verdana, "Geneva", sans-serif;
+  font-size: 18px;
+  margin: auto;
+  letter-spacing: 2.1px;
+  display: block;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #aaa;
+}
+/* end of navigation */
+
+/* content */
+
+.form {
+  width: 40%;
+  margin: auto;
+}
+.form .size {
+  padding: 25px;
+  border: 2px solid #eee;
+  border-radius: 20px;
+}
+.form-btn {
+  background-color: #76dbe0;
+  border-radius: 20px;
+  width: 100%;
+  text-align: center;
+}
+.form-btn a {
+  color: rgb(87, 81, 81);
+  font-size: 18px;
+  font-weight: bold;
+}
+.form-btn:hover {
+  background-color: #a3f0f1;
+}
+.form-btn a:hover {
+  text-decoration: none;
+}
+.form-p a:hover {
+  text-decoration: none;
+}
+
+/* end of content */
+
+/* footer */
+.footer {
+  /* background-color: #1b252f; */
+  margin-top: 8%;
+
+  /* height: 200px; */
+}
+.footer .text1 {
+  margin-top: 2em;
+  font-size: 20px;
+}
+.footer .text {
+  margin-top: 5em;
+  font-size: 20px;
+}
+.footer .fab,
+.fas {
+  font-size: 20px;
+  padding-right: 2em;
+  margin-top: 5em;
+  color: white;
+}
+@media only screen and (max-width: 767px) {
+  .footer .text {
+    margin-top: 0.5em;
+    font-size: 16px;
+  }
+  .footer .fab,
+  .fas {
+    margin-top: 0.5em;
+    font-size: 16px;
+    margin-bottom: 0.5em;
+  }
+}
+
+/* footer end */

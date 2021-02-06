@@ -55,6 +55,16 @@ li a {
 
   opacity: 0.7;
 }
+ .drop .fas {
+  font-size: 52px;
+  color: rgb(0, 247, 255);
+  position: absolute;
+  top: 235px;
+  /* bottom: 200px; */
+  /* right: 150px; */
+  left: 662px ;
+  
+}
 .carousel-inner h1 {
   font-size: 100px;
   font-weight: 900;
@@ -76,6 +86,9 @@ li a {
   text-size-adjust: 100%;
   color: rgb(255, 255, 255);
 }
+/* p{
+  font-size: 20px;
+} */
 @media only screen and (max-width: 1024px) {
   .carousel-inner h1 {
     font-size: 70px;

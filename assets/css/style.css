@@ -55,6 +55,22 @@ li a {
 
   opacity: 0.7;
 }
+ .drop .fas {
+  font-size: 52px;
+  color: rgb(0, 247, 255);
+  /* margin-top: -100px; */
+  position: absolute;
+  top: 50%;
+  /* bottom: 200px; */
+  /* right: 150px; */
+  left: 49% ;
+  
+}
+@media only screen and (max-width: 767px) {
+  .drop .fas {
+    top: 82%;
+  }
+}
 .carousel-inner h1 {
   font-size: 100px;
   font-weight: 900;
@@ -75,6 +91,29 @@ li a {
   text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
   text-size-adjust: 100%;
   color: rgb(255, 255, 255);
+}
+h3{
+  text-align: center;
+  margin-top:2%;
+  margin-bottom:2%;
+  font-size: 60px;
+  font-weight: bold;
+  color: #76dbe0;
+}
+#about{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+}
+.row .full-p{
+  font-size: 24px;
+}
+.row .para {
+  margin:2em 0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  
+
 }
 @media only screen and (max-width: 1024px) {
   .carousel-inner h1 {

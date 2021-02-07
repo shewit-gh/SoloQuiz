@@ -60,10 +60,21 @@ li a {
   color: rgb(0, 247, 255);
   /* margin-top: -100px; */
   position: absolute;
-  top: 47%;
+  top: 80%;
   /* bottom: 200px; */
   /* right: 150px; */
   left: 49%;
+}
+.down{
+  fill: #FFF;
+  margin: auto;
+  width: 4em;
+  height: 5em;
+  animation: hover-me .5s infinite ease-in-out alternate; 
+}
+
+@keyframes hover-me {
+  100% { transform: translate3d(0, 25px, 0); }
 }
 @media only screen and (max-width: 767px) {
   .drop .fas {

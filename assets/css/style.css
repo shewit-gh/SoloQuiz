@@ -1,6 +1,6 @@
 /* navigation */
 .navbar {
-  padding: 0.5rem;
+  height: 10vh;
 }
 .navbar .navbar-brand {
   opacity: 0.85;
@@ -31,7 +31,7 @@ li a {
 /* content */
 .bg_cover {
   position: relative;
-  height: 85vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -46,7 +46,7 @@ li a {
   /* background-position-x: 50%; */
   /* background-position-y: 0%; */
   background-size: cover;
-  height: 85vh;
+  height: 90vh;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -55,20 +55,19 @@ li a {
 
   opacity: 0.7;
 }
- .drop .fas {
+.drop .fas {
   font-size: 52px;
   color: rgb(0, 247, 255);
   /* margin-top: -100px; */
   position: absolute;
-  top: 50%;
+  top: 47%;
   /* bottom: 200px; */
   /* right: 150px; */
-  left: 49% ;
-  
+  left: 49%;
 }
 @media only screen and (max-width: 767px) {
   .drop .fas {
-    top: 82%;
+    top: 78%;
   }
 }
 .carousel-inner h1 {
@@ -92,28 +91,26 @@ li a {
   text-size-adjust: 100%;
   color: rgb(255, 255, 255);
 }
-h3{
+h3 {
   text-align: center;
-  margin-top:2%;
-  margin-bottom:2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   font-size: 60px;
   font-weight: bold;
   color: #76dbe0;
 }
-#about{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+#about {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serifs;
 }
-.row .full-p{
+.row .full-p {
   font-size: 24px;
 }
 .row .para {
-  margin:2em 0;
-  display:flex;
+  margin: 2em 0;
+  display: flex;
   align-items: center;
   justify-content: center;
   font-size: 24px;
-  
-
 }
 @media only screen and (max-width: 1024px) {
   .carousel-inner h1 {
@@ -135,36 +132,41 @@ h3{
 /* end of content */
 
 /* footer */
-.footer {
-  /* background-color: #1b252f; */
-  margin-top: 8%;
-
-  /* height: 200px; */
+.footer h4 {
+  margin-top: 2em;
 }
 .footer .text1 {
-  margin-top: 2em;
-  font-size: 20px;
+  /* margin-top: 2em; */
+  font-size: 17px;
+  margin-left: -2.5em;
+}
+.footer .text1 li {
+  padding: 1.5% 1%;
+  list-style-type: none;
 }
 .footer .text {
-  margin-top: 5em;
-  font-size: 20px;
+  /* margin-top: 5em; */
+  font-size: 17px;
 }
 .footer .fab,
 .fas {
   font-size: 20px;
   padding-right: 2em;
-  margin-top: 5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   color: white;
+}
+.footer a:hover {
+  text-decoration: none;
 }
 @media only screen and (max-width: 767px) {
   .footer .text {
     margin-top: 0.5em;
-    font-size: 16px;
   }
   .footer .fab,
   .fas {
     margin-top: 0.5em;
-    font-size: 16px;
+
     margin-bottom: 0.5em;
   }
 }

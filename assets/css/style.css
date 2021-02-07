@@ -1,6 +1,6 @@
 /* navigation */
 .navbar {
-  padding: 0.5rem;
+  height: 10vh;
 }
 .navbar .navbar-brand {
   opacity: 0.85;
@@ -31,7 +31,7 @@ li a {
 /* content */
 .bg_cover {
   position: relative;
-  height: 85vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -46,7 +46,7 @@ li a {
   /* background-position-x: 50%; */
   /* background-position-y: 0%; */
   background-size: cover;
-  height: 85vh;
+  height: 90vh;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -60,7 +60,7 @@ li a {
   color: rgb(0, 247, 255);
   /* margin-top: -100px; */
   position: absolute;
-  top: 80%;
+  top: 47%;
   /* bottom: 200px; */
   /* right: 150px; */
   left: 49% ;
@@ -129,34 +129,6 @@ h3{
   }
   .carousel-inner p {
     font-size: 20px;
-  }
-}
-
-.container{
-  padding-left: 150px;
-}
-.img{
-  height: 140px; 
-  width: 140px; 
-  background-color:rgb(234, 245, 245);
-}
-.l-heading{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;  
-  text-align: center;
-  margin-top: 4rem;
-  margin-bottom: 5rem;
-} 
-
-.mover{
-  margin-left: 12rem;
-}
-.ml-5, .pl-4{
-  font-size: 20px;
-  font-weight: bold;
-}
-@media screen and (max-width: 767px){
-  .mover{
-    margin-left: 0rem;
   }
 }
 

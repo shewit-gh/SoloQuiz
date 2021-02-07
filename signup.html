@@ -17,7 +17,7 @@
 
     <!-- navigation -->
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <a class="navbar-brand" href="index.html">SOLO<span style="color: #76dbe0;">QUIZ</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,17 +26,17 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item  ml-auto">
-                    <a class="nav-link" href="#">ABOUT <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html#about">ABOUT <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">LOGIN</a>
+                    <a class="nav-link" href="login.html">LOGIN</a>
                 </li>
                 <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">SIGN-UP</a>
+                    <a class="nav-link" href="signup.html">SIGN-UP</a>
                 </li>
-                <li class="nav-item ml-auto mt-2">
+                <li class="nav-item ml-auto mt-3">
                     <a class="btn btn-primary rounded-circle" href="#" role="button"
-                        style="height: 50px; width: 50px; background-color: white; color: black;"></a>
+                        style="height: 40px; width: 40px; background-color: white; color: black;"></a>
                 </li>
             </ul>
         </div>
@@ -49,7 +49,9 @@
 
     <div class="container">
 
-        <h1 class="display-4 m-5 text-center header">Sign-up to start quiz</h1>
+        <div class="logo"><img src="./assets/img/Logo.png" alt=""></div>
+
+        <h1 class="display-4 m-3 text-center header">Sign-up to start quiz</h1>
 
         <form action="" class="form p-3">
             <div class="form-group">
@@ -77,39 +79,44 @@
 
     <!-- start of footer -->
     <div class="container-fluid footer bg-dark">
-        <div class="container">
-            <div class="row px-5">
-                <div class="col d-flex justify-content-center">
-                    <p class="text1 text-light">
-                        contact us
-                    </p>
-                </div>
-
+    
+    
+    
+        <div class="row px-5">
+            <div class="col-md ">
+                <h4 class="text-h4 text-light">About us</h4>
+                <ul class="text1 text-light">
+                    <li>The best place to test your programming skills!</li>
+                    <li>Variety of catagories</li>
+                    <li>Multiple levels</li>
+                </ul>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram text-light "></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter text-light "></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube text-light "></i></a>
+                <a href="https://www.spotify.com/" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook text-light "></i></a>
             </div>
-        </div>
-
-        <div class="container">
-
-            <div class="row px-5">
-                <div class="col-md-6 d-flex justify-content-center">
-                    <p class="text text-light">
-                        &copy; SoloQuiz 2021
+    
+            <div class="col-md ">
+                <h4 class="text-h4 text-light"><a href="contact.html" style="color: #76dbe0;">Contact Us</a></h4>
+    
+                <p class="text text-light">Give us your feedback on the contact form</p>
+                <div>
+                    <p class="text text-light"><i class="fas fa-phone-alt" style="font-size: 17px; "> (541)-345-6780</i>
+                        <br>
+                        <i class="far fa-envelope"></i> info@soloquiz.com
                     </p>
+    
                 </div>
-                <div class="col-md-6 d-flex justify-content-center">
-                    <a href="https://www.instagram.com/" target="_blank"><i
-                            class="fab fa-instagram text-light "></i></a>
-                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter text-light "></i></a>
-                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube text-light "></i></a>
-                    <a href="https://www.spotify.com/" target="_blank"><i class="fas fa-envelope"></i></a>
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook text-light "></i></a>
-
-                </div>
-
+    
+                <p class="text text-light" style="font-size: 20px; margin-top: 6.5%;">
+                    &copy; SoloQuiz 2021
+                </p>
             </div>
+    
         </div>
     </div>
-
+    </div>
     <!-- end of footer -->
 
 

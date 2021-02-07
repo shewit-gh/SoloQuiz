@@ -65,6 +65,17 @@ li a {
   /* right: 150px; */
   left: 49%;
 }
+.down{
+  fill: #FFF;
+  margin: auto;
+  width: 4em;
+  height: 5em;
+  animation: hover-me .5s infinite ease-in-out alternate; 
+}
+
+@keyframes hover-me {
+  100% { transform: translate3d(0, 25px, 0); }
+}
 @media only screen and (max-width: 767px) {
   .drop .fas {
     top: 78%;

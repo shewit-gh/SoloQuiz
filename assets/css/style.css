@@ -58,23 +58,22 @@ li a {
 .drop .fas {
   font-size: 52px;
   color: rgb(0, 247, 255);
-  /* margin-top: -100px; */
   position: absolute;
-  top: 80%;
-  /* bottom: 200px; */
-  /* right: 150px; */
+  top: 78%;
   left: 49%;
 }
-.down{
-  fill: #FFF;
+.down {
+  fill: #fff;
   margin: auto;
   width: 4em;
   height: 5em;
-  animation: hover-me .5s infinite ease-in-out alternate; 
+  animation: hover-me 0.5s infinite ease-in-out alternate;
 }
 
 @keyframes hover-me {
-  100% { transform: translate3d(0, 25px, 0); }
+  100% {
+    transform: translate3d(0, 25px, 0);
+  }
 }
 @media only screen and (max-width: 767px) {
   .drop .fas {
@@ -108,7 +107,6 @@ h3 {
   margin-bottom: 2%;
   font-size: 60px;
   font-weight: bold;
-  color: #76dbe0;
 }
 #about {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serifs;
@@ -137,6 +135,16 @@ h3 {
   }
   .carousel-inner p {
     font-size: 20px;
+  }
+  .row .para,
+  .full-p {
+    font-size: 20px;
+  }
+  .first {
+    order: 1;
+  }
+  .last {
+    order: 12;
   }
 }
 

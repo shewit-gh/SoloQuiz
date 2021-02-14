@@ -1,0 +1,147 @@
+/* navigation */
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  height: 10vh;
+}
+.navbar .navbar-brand {
+  opacity: 0.85;
+  font-size: 2rem;
+  padding: 5px;
+  letter-spacing: 2.1px;
+}
+.navbar-nav li {
+  padding: 10px 30px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  padding: 20px 10px;
+  color: white;
+}
+
+li a {
+  font-family: Verdana, "Geneva", sans-serif;
+  font-size: 18px;
+  margin: auto;
+  letter-spacing: 2.1px;
+  display: block;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #aaa;
+}
+@media only screen and (max-width: 1035px) and (min-width: 767px) {
+  .navbar-nav li {
+    padding: 10px 3px;
+  }
+  li a {
+    font-size: 16px;
+  }
+}
+/* end of navigation */
+.big-box {
+  width: 50%;
+  margin: 5% auto;
+  padding: 2%;
+  padding-left: 5%;
+  background-color: #eee;
+  box-shadow: 3px 3px 5px 6px rgba(200, 200, 200, 0.5);
+}
+.big-box p,
+.start_btn {
+  font-size: 18px;
+}
+.start_btn {
+  background-color: #76dbe0;
+  border-radius: 20px;
+  width: 30%;
+  height: 3rem;
+}
+.start_btn:hover {
+  background-color: #a3f0f1;
+}
+
+.quiz-box {
+  width: 75%;
+  margin: 5% auto;
+  padding: 2%;
+  padding-left: 5%;
+  background-color: #eee;
+  box-shadow: 3px 3px 5px 6px rgba(200, 200, 200, 0.5);
+}
+.quiz-box .question-number {
+  font-size: 20px;
+  color: slategrey;
+  font-weight: 600;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2%;
+  line-height: 25px;
+}
+.quiz-box .question {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 2% 0;
+  line-height: 25px;
+}
+.quiz-box .option {
+  background-color: rgb(217, 220, 223);
+  padding: 1%;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-bottom: 1.5%;
+  cursor: pointer;
+}
+.quiz-box .option:hover {
+  background-color: rgb(193, 198, 201);
+}
+
+.quiz-box .next_btn {
+  background-color: #76dbe0;
+  border-radius: 20px;
+  width: 20%;
+  height: 3rem;
+}
+.next_btn:hover {
+  background-color: #a3f0f1;
+}
+
+/* footer */
+
+.footer h4 {
+  margin-top: 2em;
+}
+.footer .text1 {
+  /* margin-top: 2em; */
+  font-size: 17px;
+  margin-left: -2.5em;
+}
+.footer .text1 li {
+  padding: 1.5% 1%;
+  list-style-type: none;
+}
+.footer .text {
+  /* margin-top: 5em; */
+  font-size: 17px;
+}
+.footer .fab,
+.fas {
+  font-size: 20px;
+  padding-right: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: white;
+}
+.footer a:hover {
+  text-decoration: none;
+}
+@media only screen and (max-width: 767px) {
+  .footer .text {
+    margin-top: 0.5em;
+  }
+  .footer .fab,
+  .fas {
+    margin-top: 0.5em;
+
+    margin-bottom: 0.5em;
+  }
+}
+/* footer end */

@@ -1,7 +1,4 @@
 /* navigation */
-.navbar {
-  height: 10vh;
-}
 .navbar .navbar-brand {
   opacity: 0.85;
   font-size: 2rem;
@@ -9,7 +6,7 @@
   letter-spacing: 2.1px;
 }
 .navbar-nav li {
-  padding: 10px 30px;
+  padding: 0px 30px;
 }
 .navbar-dark .navbar-nav .nav-link {
   padding: 20px 10px;

@@ -1,14 +1,18 @@
+
 const questionNumber = document.querySelector(".question_number")
 const questionText = document.querySelector(".question")
 const optionContainer = document.querySelector(".option_container")
-const singleOption = document.querySelectorAll(".option")
+const singleOption1 = document.querySelector(".option0")
+const singleOption2 = document.querySelector(".option1")
+const singleOption3 = document.querySelector(".option2")
+const singleOption4 = document.querySelector(".option3")
 
 let questionCounter = 0;
 let currentQuestion;
 let currentOPtion;
 var option;
-let availableQuestions = []
-let availableOptions = []
+let availableQuestions = [];
+let availableOptions = [];
 
 function setavailableQuestions() {
     const totalQuestion = htmlBeginner.length
@@ -29,33 +33,13 @@ function getNewQuestion() {
 
     availableQuestions.splice(index1, 1);
 
-    const optionLen = currentQuestion.options.length
-    for (let i = 0; i < optionLen; i++) {
-        availableOptions.push(i)
-    }
+    singleOption1.innerHTML = currentQuestion.options[0];
 
-    let animationDelay = 0.2;
+    singleOption2.innerHTML = currentQuestion.options[1];
 
-    for (let i = 0; i < optionLen; i++) {
-        const optionIndex = availableOptions[Math.floor(Math.random() * availableOptions.length)];
+    singleOption3.innerHTML = currentQuestion.options[2];
 
-        const index2 = availableOptions.indexOf(optionIndex);
-
-        availableOptions.splice(index2, 1);
-
-        // currentOption = optionIndex;
-        // singleOption.innerHTML = currentQuestion.options[optionIndex];
-        // optionContainer.appendChild(currentQuestion.options[optionIndex])
-
-        option = document.createElement("div")
-        option.innerHTML = currentQuestion.options[optionIndex]
-        option.id = optionIndex;
-        option.style.animationDelay = animationDelay + "s";
-        animationDelay = animationDelay + 0.2;
-        option.className = "option";
-        optionContainer.appendChild(option)
-        option.setAttribute("onclick", "getResult(this)");
-    }
+    singleOption4.innerHTML = currentQuestion.options[3];
 
     questionCounter++
 
@@ -64,7 +48,7 @@ function getNewQuestion() {
 function getResult(element) {
     const id = parseInt(element.id);
     if (id === currentQuestion.answer) {
-        console.log("answer is correct")
+        element.classList.add("correct");
     }
     else {
         console.log("answer is wrong")
@@ -74,20 +58,8 @@ function getResult(element) {
 function next() {
     if (questionCounter === htmlBeginner.length) {
         console.log("over")
-
-
     }
-
     else {
-        // for (let i = currentQuestion.options.length; i >= 0; i--) {
-        //     availableOptions.pop(i)
-        // }
-
-        // availableOptions.length = 0
-        // for (let i = 0; i < currentQuestion.options.length; i++) {
-        //     optionContainer.removeChild(option)
-        // }
-
         getNewQuestion()
     }
 }

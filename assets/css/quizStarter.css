@@ -32,61 +32,25 @@ li a {
   }
 }
 /* end of navigation */
-
-.quiz-box {
-  width: 75%;
+.big-box {
+  width: 50%;
   margin: 5% auto;
   padding: 2%;
   padding-left: 5%;
   background-color: #eee;
-  box-shadow: 3px 3px 5px 6px rgba(255, 255, 255, 0.5);
+  box-shadow: 3px 3px 5px 6px rgba(200, 200, 200, 0.5);
 }
-.quiz-box .question_number {
-  font-size: 20px;
-  color: slategrey;
-  font-weight: 600;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 2%;
-  line-height: 25px;
-}
-.quiz-box .question {
-  font-size: 20px;
-  font-weight: 600;
-  padding: 2% 0;
-  line-height: 25px;
-}
-.quiz-box .option0,
-.option1,
-.option2,
-.option3 {
-  background-color: rgb(217, 220, 223);
-  padding: 1%;
+.big-box p,
+.start_btn {
   font-size: 18px;
-  border-radius: 5px;
-  margin-bottom: 1.5%;
-  cursor: pointer;
-  opacity: 0;
-  animation: fadeIn 0.3s ease forwards;
 }
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.quiz-box .option:hover {
-  background-color: rgb(193, 198, 201);
-}
-
-.quiz-box .next_btn {
+.start_btn {
   background-color: #76dbe0;
   border-radius: 20px;
-  width: 20%;
+  width: 30%;
   height: 3rem;
 }
-.next_btn:hover {
+.start_btn:hover {
   background-color: #a3f0f1;
 }
 

@@ -1,3 +1,4 @@
+
 const htmlBeginner = [
     {
         question: "How old are you",
@@ -10,8 +11,18 @@ const htmlBeginner = [
         answer: 1
     },
     {
-        question: "are you student",
-        options: ["yes", "no", "ofcourse", "ofcourse not"],
+        question: "traethsrdfare you student",
+        options: ["wow", "amazing", "ofcourse", "ofcourse not"],
+        answer: 0
+    },
+    {
+        question: "sxdrtcfgvare you student",
+        options: ["nice", "yes", "ofcourse", "ofcourse not"],
+        answer: 0
+    },
+    {
+        question: "xdrgvybuhjnare you student",
+        options: ["woooooooooowwwwww", "iiiii", "ofcourse", "ofcourse not"],
         answer: 0
     }
 ]

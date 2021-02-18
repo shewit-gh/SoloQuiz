@@ -161,3 +161,54 @@ li a {
 }
 
 /* footer end */
+@media only screen and (max-width: 1300px) and (min-width: 767px) {
+
+  .modal-content{
+  
+  
+    width:400px;
+    height:400px;
+    position: absolute;
+    top: 10%;
+    left:50%;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    border:1px solid rgb(214, 205, 205);
+    
+    
+  } 
+}
+@media only screen and (max-width: 767px) and (min-width:567px) {
+
+  .modal-content{
+  
+  
+    width:400px;
+    height:400px;
+    position: absolute;
+    top: 10%;
+    left:25%;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    border:1px solid rgb(214, 205, 205);
+    
+    
+  } 
+}
+@media only screen and (max-width: 567px) {
+
+  .modal-content{
+  
+  
+    width:400px;
+    height:400px;
+    position: absolute;
+    top: 13%;
+    left:18%;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    border:1px solid rgb(214, 205, 205);
+    
+    
+  } 
+}

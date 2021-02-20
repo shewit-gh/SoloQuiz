@@ -61,6 +61,7 @@ li a {
 .option3 {
   background-color: rgb(217, 220, 223);
   padding: 1%;
+  padding-left: 3%;
   font-size: 18px;
   border-radius: 5px;
   margin-bottom: 1.5%;
@@ -76,7 +77,10 @@ li a {
     opacity: 1;
   }
 }
-.quiz-box .option:hover {
+.quiz-box .option0:hover,
+.option1:hover,
+.option2:hover,
+.option3:hover {
   background-color: rgb(193, 198, 201);
 }
 

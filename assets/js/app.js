@@ -2,6 +2,7 @@
 const questionNumber = document.querySelector(".question_number")
 const questionText = document.querySelector(".question")
 const optionContainer = document.querySelector(".option_container")
+const selectAnswer = document.querySelector(".option")
 const singleOption1 = document.querySelector(".option0")
 const singleOption2 = document.querySelector(".option1")
 const singleOption3 = document.querySelector(".option2")
@@ -44,9 +45,10 @@ function getNewQuestion() {
     questionCounter++
 
 }
-
+selectAnswer.addEventListener('click', getResult)
 function getResult(element) {
     const id = parseInt(element.id);
+    console.log(element.id)
     if (id === currentQuestion.answer) {
         element.classList.add("correct");
     }

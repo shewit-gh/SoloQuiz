@@ -1,3 +1,50 @@
+/* popup */
+.image{
+  position:absolute;
+  width: 80px;
+  height:80px;
+  border-radius: 50%;
+  background-color: rgb(188, 188, 241);
+  top: 10%;
+  left: 40%;
+  display: inline;
+}
+.btns button{
+  margin-bottom: 18%;
+  display: block;
+  border-radius: 14%;
+  height: 50px;
+  width: 100px;
+  background-color: #76dbe0;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  border: #76dbe0;
+}
+.btns{
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+.btn:hover{
+  background-color: thistle;
+}
+.modal-content{
+  
+  
+  width:400px;
+  height:400px;
+  position: absolute;
+  top: 10%;
+  left:100%;
+  background-color:rgb(255, 255, 255);
+  border-radius: 5px;
+  border:1px solid rgb(214, 205, 205);
+  
+  
+}  
+
+/* ppopup */
 /* navigation */
 .navbar .navbar-brand {
   opacity: 0.85;
@@ -188,3 +235,55 @@ h3 {
 }
 
 /* footer end */
+@media only screen and (max-width: 1300px) and (min-width: 767px) {
+
+  .modal-content{
+  
+  
+    width:400px;
+    height:400px;
+    position: absolute;
+    top: 10%;
+    left:50%;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    border:1px solid rgb(214, 205, 205);
+    
+    
+  } 
+}
+@media only screen and (max-width: 767px) and (min-width:567px) {
+
+  .modal-content{
+  
+  
+    width:400px;
+    height:400px;
+    position: absolute;
+    top: 10%;
+    left:25%;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    border:1px solid rgb(214, 205, 205);
+    
+    
+  } 
+}
+@media only screen and (max-width: 567px) {
+
+  .modal-content{
+  
+  
+    width:400px;
+    height:400px;
+    position: absolute;
+    top: 13%;
+    left:18%;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    border:1px solid rgb(214, 205, 205);
+    
+    
+  } 
+}
+

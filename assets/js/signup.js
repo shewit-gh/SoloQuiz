@@ -44,7 +44,6 @@ form.addEventListener('submit', (e)=>{
 });
 
 
-
    
 //     if (fname.length == 0 || email.length == 0 || password.length == 0){
 //         e.preventDefault();

@@ -7,7 +7,9 @@ const singleOption1 = document.querySelector(".option0")
 const singleOption2 = document.querySelector(".option1")
 const singleOption3 = document.querySelector(".option2")
 const singleOption4 = document.querySelector(".option3")
-
+const progressbar = document.getElementById("progress")
+const percentCount = document.getElementById("percentCount")
+const MAX_QUESTIONS =   5;
 let questionCounter = 0;
 let currentQuestion;
 let currentOPtion;
@@ -42,7 +44,12 @@ function getNewQuestion() {
 
     singleOption4.innerHTML = currentQuestion.options[3];
 
-    questionCounter++
+    percentCount.innerText = `${(questionCounter / MAX_QUESTIONS) * 100}`
+    // Update the progress bar
+    progressbar.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
+    questionCounter++;
+
+    
 
 }
 selectAnswer.addEventListener('click', getResult)
@@ -62,12 +69,16 @@ function next() {
         console.log("over")
     }
     else {
-        getNewQuestion()
+        setTimeout (() => {
+           
+            getNewQuestion();
+        }, 1000);
     }
 }
 
 window.onload = function () {
 
     setavailableQuestions();
+    questionCounter=0;
     getNewQuestion();
 }

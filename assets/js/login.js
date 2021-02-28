@@ -8,7 +8,6 @@ const pass = (JSON.parse(localStorage.getItem('user'))).password
 form2.addEventListener('submit', (e)=>{
     e.preventDefault()
     if (userName.value === how && password2.value === pass){
-        alert("you have successfully logged in")
         location.href = 'languages.html'
 
     }else{

@@ -83,10 +83,11 @@
         <h1 class="display-4 m-3 text-center header">Sign-up to start quiz</h1>
 
         <form action="POST" class="form p-3" id="frm">
-            <p id="error"></p> 
+            
             <div class="form-group">
                 <input class="form-control size" type="text" name="name" id="name" placeholder="User_name" required>
             </div>
+            <p id="error"></p> 
             <div class="form-group">
                 <input class="form-control size" type="email" name="memail" id="memail" placeholder="Email" required>
             </div>
@@ -94,6 +95,11 @@
                 <input type="password" class="form-control size" id="exampleInputPassword1" placeholder="Password" required>
             </div>
             <p id="error2"></p> 
+            <div class="form-group">
+                <input type="password" class="form-control size" id="exampleInputPassword2" placeholder="confirm password" required>
+            </div>
+            <p id="error3"></p>
+            
            
             
 
@@ -166,7 +172,7 @@
         crossorigin="anonymous"></script>
     <script src="./assets/js/db.js"></script>
     <script src="./assets/js/signup.js"></script>
-    <script src="./assets/js/profile.js"></script>
+    <!-- <script src="./assets/js/profile.js"></script> -->
 
 </body>
 

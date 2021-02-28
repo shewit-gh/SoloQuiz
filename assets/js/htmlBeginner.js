@@ -2,16 +2,23 @@
 const questionNumber = document.querySelector(".question_number")
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("option"));
+// const scoreText = document.getElementById('score');
+// const progressbar = document.getElementById("progress")
+// const percentCount = document.getElementById("percentCount")
 
-const progressbar = document.getElementById("progress")
-const percentCount = document.getElementById("percentCount")
+const progressText = document.getElementById("progressText");
+const scoreText = document.getElementById('score');
+const progressBarFull = document.getElementById("progressBarFull");
+
+
+
 
 
 let currentQuestion = {};
 let acceptingAnswer = false;
 let score = 0;
 let questionCounter = 0;
-// let questions = [];
+// let availableQuestions = [];
 
 let questions = [
     {
@@ -71,7 +78,14 @@ startGame = () => {
 }
 
 function getNewQuestion() {
+    if (questions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        // go to the end page
+        // return window.location.assign("../js./assets/results.html");
+        return window.location.href = "results.html";
+    }
     questionCounter++;
+    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`
+
 
     questionNumber.innerHTML = "Question " + questionCounter + " of " + MAX_QUESTIONS;
 
@@ -90,38 +104,39 @@ function getNewQuestion() {
 
 }
 
+choices.forEach(choice => {
+    choice.addEventListener('click', e => {
+        if (!acceptingAnswer) { return };
 
+        acceptingAnswer = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset['number'];
+        // console.log(selectedAnswer);
+        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+        if (classToApply === 'correct') {
+            incrementScore(CORRECT_BONUS);
+        }
 
-// console.log(availableQuestions); acceptingAnswer = true;
+        selectedChoice.parentElement.classList.add(classToApply);
 
-// selectAnswer.addEventListener('click', getResult)
-// function getResult(element) {
-//     const id = parseInt(element.id);
-//     console.log(element.id)
-//     if (id === currentQuestion.answer) {
-//         element.classList.add("correct");
-//     }
-//     else {
-//         console.log("answer is wrong")
-//     }
-// }
-
-function next() {
-    if (questions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-        // go to the end page
-        return window.location.assign("../js../assets./results.html");
-    }
-
-    if (questionCounter === questions.length) {
-        console.log("over")
-    }
-    else {
         setTimeout(() => {
-
+            selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
         }, 1000);
-    }
-}
+
+    })
+})
+
+incrementScore = num => {
+    score += num;
+    scoreText.innerText = score;
+
+};
+
+
+
+
+
 
 window.onload = function () {
 

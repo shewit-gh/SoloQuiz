@@ -81,7 +81,7 @@ function getNewQuestion() {
     if (questions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         // go to the end page
         // return window.location.assign("../js./assets/results.html");
-        return window.location.href = "resultadvancedhtml.html";
+        return window.location.href = "cresultInter.html";
     }
     questionCounter++;
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`

@@ -22,43 +22,43 @@ let questionCounter = 0;
 
 let questions = [
     {
-        question: "How many glyphs does bootstrap include?",
-        choice1: "369",
-        choice2: " 360 ",
-        choice3: " 260",
-        choice4: "100",
-        answer: 3
-    },
-    {
-        question: "  Which of the following occurs after fixed positioned is added to the element?",
-        choice1: " affix.bs.affix",
-        choice2: "affixed.bs.affix",
-        choice3: "affix-top.bs.affix",
-        choice4: "affixed-top.bs.affix",
+        question: "If we don't want to allow a floating div to the left side of an element, which css property will we use ?",
+        choice1: "margin",
+        choice2: " clear ",
+        choice3: " float",
+        choice4: "padding",
         answer: 2
     },
     {
-        question: "Which of the following allows an element to lock to an area on the page?",
-        choice1: " affix",
-        choice2: "alert",
-        choice3: "popover",
-        choice4: "tooltip",
-        answer: 1
+        question: "  Can we align a Block element by setting the left and right margins ?",
+        choice1: " yes, we can ",
+        choice2: "not possible",
+        choice3: "sometimes possible",
+        choice4: "none",
+        answer: 2
     },
     {
-        question: "Which of the following makes the button appear pressed?",
-        choice1: ".btn-link",
-        choice2: ".disabled",
-        choice3: ".active",
-        choice4: ".btn-block",
+        question: "If we want to wrap a block of text around an image, which css property will we use ?",
+        choice1: " wrap",
+        choice2: "push",
+        choice3: "float",
+        choice4: "align",
         answer: 3
     },
     {
-        question: " What adds slides to carousel?",
-        choice1: " .carousel",
-        choice2: " .carousel-inner",
-        choice3: ".item",
-        choice4: ".carousel-indicators",
+        question: " Can we define the text direction via css property ?",
+        choice1: "yes, we can",
+        choice2: "no, we can not",
+        choice3: "sometimes",
+        choice4: "none",
+        answer: 1
+    },
+    {
+        question: "If we want to show an Arrow as cursor, then which value we will use ?",
+        choice1: " pointer",
+        choice2: " default",
+        choice3: "arrow",
+        choice4: "arr",
         answer: 2
     }
 

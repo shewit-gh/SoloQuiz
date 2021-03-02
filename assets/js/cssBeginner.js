@@ -22,44 +22,44 @@ let questionCounter = 0;
 
 let questions = [
     {
-        question: "How many glyphs does bootstrap include?",
-        choice1: "369",
-        choice2: " 360 ",
-        choice3: " 260",
-        choice4: "100",
+        question: "What does CSS stand for?",
+        choice1: "creative Style Scheets",
+        choice2: " computer style sheets ",
+        choice3: " colorful style sheets",
+        choice4: "cascading style sheets",
+        answer: 4
+    },
+    {
+        question: "Select the property used to create space between the element’s border and inner content? ",
+        choice1: " border",
+        choice2: "spacing",
+        choice3: "padding",
+        choice4: "margin",
         answer: 3
     },
     {
-        question: "  Which of the following occurs after fixed positioned is added to the element?",
-        choice1: " affix.bs.affix",
-        choice2: "affixed.bs.affix",
-        choice3: "affix-top.bs.affix",
-        choice4: "affixed-top.bs.affix",
-        answer: 2
-    },
-    {
-        question: "Which of the following allows an element to lock to an area on the page?",
-        choice1: " affix",
-        choice2: "alert",
-        choice3: "popover",
-        choice4: "tooltip",
+        question: "In CSS, what is the correct option to select all the tags on a page?",
+        choice1: "  p { }",
+        choice2: "#p { }",
+        choice3: ".p { } ",
+        choice4: " <p> { }",
         answer: 1
     },
     {
-        question: "Which of the following makes the button appear pressed?",
-        choice1: ".btn-link",
-        choice2: ".disabled",
-        choice3: ".active",
-        choice4: ".btn-block",
+        question: "In CSS,Select the property used to set the spacing in between lines of text?",
+        choice1: "letter-spacing",
+        choice2: "spacing",
+        choice3: "line-height",
+        choice4: "line-spacing",
         answer: 3
     },
     {
-        question: " What adds slides to carousel?",
-        choice1: " .carousel",
-        choice2: " .carousel-inner",
-        choice3: ".item",
-        choice4: ".carousel-indicators",
-        answer: 2
+        question: " If we want define style for an unique element, then which css selector will we use ?",
+        choice1: "Id",
+        choice2: " class",
+        choice3: "text",
+        choice4: "name",
+        answer: 1
     }
 
 

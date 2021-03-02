@@ -22,44 +22,44 @@ let questionCounter = 0;
 
 let questions = [
     {
-        question: "How many glyphs does bootstrap include?",
-        choice1: "369",
-        choice2: " 360 ",
-        choice3: " 260",
-        choice4: "100",
+        question: "If we want to use a nice looking green dotted border around an image, which css property",
+        choice1: "border-color",
+        choice2: " border-decoration ",
+        choice3: "border-style",
+        choice4: "border-line",
         answer: 3
     },
     {
-        question: "  Which of the following occurs after fixed positioned is added to the element?",
-        choice1: " affix.bs.affix",
-        choice2: "affixed.bs.affix",
-        choice3: "affix-top.bs.affix",
-        choice4: "affixed-top.bs.affix",
+        question: " What should be the table width, so that the width of a table adjust to the current width",
+        choice1: " 640 pixels",
+        choice2: "100%",
+        choice3: "full-screen",
+        choice4: "1024 px",
         answer: 2
     },
     {
-        question: "Which of the following allows an element to lock to an area on the page?",
-        choice1: " affix",
-        choice2: "alert",
-        choice3: "popover",
-        choice4: "tooltip",
+        question: "Which element is used in the <HEAD> section on an HTML / XHTMLpage, if we want to use an external style sheet file to decorate the page ?",
+        choice1: " <src>",
+        choice2: "<link>",
+        choice3: "<style>",
+        choice4: "<css>",
+        answer: 2
+    },
+    {
+        question: 'When we write <img src="img.png">, what "img.png" inside double quote implies?',
+        choice1: "element ",
+        choice2: "attribute",
+        choice3: " value",
+        choice4: "operator",
+        answer: 3
+    },
+    {
+        question: " How can we write comment along with CSS code ?",
+        choice1: " /* a comment */",
+        choice2: " // a comment //",
+        choice3: "/ a comment /",
+        choice4: "<' a comment'>",
         answer: 1
-    },
-    {
-        question: "Which of the following makes the button appear pressed?",
-        choice1: ".btn-link",
-        choice2: ".disabled",
-        choice3: ".active",
-        choice4: ".btn-block",
-        answer: 3
-    },
-    {
-        question: " What adds slides to carousel?",
-        choice1: " .carousel",
-        choice2: " .carousel-inner",
-        choice3: ".item",
-        choice4: ".carousel-indicators",
-        answer: 2
     }
 
 

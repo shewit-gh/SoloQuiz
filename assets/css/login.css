@@ -117,6 +117,9 @@ li a {
 .form-p a:hover {
   text-decoration: none;
 }
+#disp, #error, #error2{
+  color: red;
+}
 
 /* end of content */
 

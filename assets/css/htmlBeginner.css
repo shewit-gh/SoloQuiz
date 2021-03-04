@@ -1,15 +1,15 @@
 /* popup */
-.image{
-  position:absolute;
+.image {
+  position: absolute;
   width: 80px;
-  height:80px;
+  height: 80px;
   border-radius: 50%;
   background-color: rgb(188, 188, 241);
   top: 10%;
   left: 40%;
   display: inline;
 }
-.btns button{
+.btns button {
   margin-bottom: 18%;
   display: block;
   border-radius: 14%;
@@ -21,28 +21,24 @@
   text-align: center;
   border: #76dbe0;
 }
-.btns{
+.btns {
   position: absolute;
   top: 40%;
   left: 35%;
 }
-.btn:hover{
+.btn:hover {
   background-color: thistle;
 }
-.modal-content{
-  
-  
-  width:400px;
-  height:400px;
+.modal-content {
+  width: 400px;
+  height: 400px;
   position: absolute;
   top: 10%;
-  left:100%;
-  background-color:rgb(255, 255, 255);
+  left: 100%;
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
-  border:1px solid rgb(214, 205, 205);
-  
-  
-}  
+  border: 1px solid rgb(214, 205, 205);
+}
 
 /* ppopup */
 /* navigation */
@@ -80,32 +76,28 @@ li a {
 }
 /* end of navigation */
 /* progress */
-.percent-count{
+/* .percent-count {
   width: 450px;
-  height:50px;
+  height: 50px;
   margin: 100px auto;
   font-size: 50px;
   text-align: center;
   color: #fff;
-
 }
-.progress-bar{
+.progress-bar {
   width: 506px;
   height: 26px;
   background-color: #bbb;
   border-radius: 13px;
   padding: 3px;
-  margin: 50px auto;    
- 
- 
+  margin: 50px auto;
 }
-.progress{
+.progress {
   width: 0px;
   height: 20px;
-  background-color:dodgerblue;
+  background-color: dodgerblue;
   border-radius: 13px;
- 
-}
+} */
 /* progress */
 
 .quiz-box {
@@ -124,17 +116,15 @@ li a {
   padding-bottom: 2%;
   line-height: 25px;
 }
-.quiz-box .question {
+.quiz-box #question {
   font-size: 20px;
   font-weight: 600;
   padding: 2% 0;
   line-height: 25px;
 }
-.quiz-box .option0,
-.option1,
-.option2,
-.option3 {
-  background-color: rgb(217, 220, 223);
+.quiz-box .option {
+  /* background-color: rgb(217, 220, 223); */
+  border: 2px solid #ccc;
   padding: 1%;
   padding-left: 3%;
   font-size: 18px;
@@ -144,6 +134,43 @@ li a {
   opacity: 0;
   animation: fadeIn 0.3s ease forwards;
 }
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 1.7rem;
+  color: slategrey;
+}
+
+.hud-main-text {
+  text-align: center;
+  font-size: 2rem;
+  color: slategrey;
+}
+
+#progressBar {
+  width: 20rem;
+  height: 1.5rem;
+  border: 1px solid #76dbe0;
+  margin-top: 1.5rem;
+}
+#progressBarFull {
+  height: 1.4rem;
+  background-color: #76dbe0;
+  width: 0%;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -152,11 +179,8 @@ li a {
     opacity: 1;
   }
 }
-.quiz-box .option0:hover,
-.option1:hover,
-.option2:hover,
-.option3:hover {
-  background-color: rgb(193, 198, 201);
+.quiz-box .option:hover {
+  /* background-color: rgb(193, 198, 201); */
 }
 
 .quiz-box .next_btn {
@@ -211,54 +235,38 @@ li a {
 }
 /* footer end */
 @media only screen and (max-width: 1300px) and (min-width: 767px) {
-
-  .modal-content{
-  
-  
-    width:400px;
-    height:400px;
+  .modal-content {
+    width: 400px;
+    height: 400px;
     position: absolute;
     top: 10%;
-    left:50%;
-    background-color:rgb(255, 255, 255);
+    left: 50%;
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    border:1px solid rgb(214, 205, 205);
-    
-    
-  } 
+    border: 1px solid rgb(214, 205, 205);
+  }
 }
-@media only screen and (max-width: 767px) and (min-width:567px) {
-
-  .modal-content{
-  
-  
-    width:400px;
-    height:400px;
+@media only screen and (max-width: 767px) and (min-width: 567px) {
+  .modal-content {
+    width: 400px;
+    height: 400px;
     position: absolute;
     top: 10%;
-    left:25%;
-    background-color:rgb(255, 255, 255);
+    left: 25%;
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    border:1px solid rgb(214, 205, 205);
-    
-    
-  } 
+    border: 1px solid rgb(214, 205, 205);
+  }
 }
 @media only screen and (max-width: 567px) {
-
-  .modal-content{
-  
-  
-    width:400px;
-    height:400px;
+  .modal-content {
+    width: 400px;
+    height: 400px;
     position: absolute;
     top: 13%;
-    left:18%;
-    background-color:rgb(255, 255, 255);
+    left: 18%;
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    border:1px solid rgb(214, 205, 205);
-    
-    
-  } 
+    border: 1px solid rgb(214, 205, 205);
+  }
 }
-

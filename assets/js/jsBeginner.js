@@ -22,44 +22,44 @@ let questionCounter = 0;
 
 let questions = [
     {
-        question: "How many glyphs does bootstrap include?",
-        choice1: "369",
-        choice2: " 360 ",
-        choice3: " 260",
-        choice4: "100",
-        answer: 3
-    },
-    {
-        question: "  Which of the following occurs after fixed positioned is added to the element?",
-        choice1: " affix.bs.affix",
-        choice2: "affixed.bs.affix",
-        choice3: "affix-top.bs.affix",
-        choice4: "affixed-top.bs.affix",
+        question: "Why do JavaScript and Java have similar name?",
+        choice1: "JavaScript is a stripped-down version of Java",
+        choice2: " JavaScript's syntax is loosely based on Java's",
+        choice3: " They both originated on the island of Java",
+        choice4: "None of the above",
         answer: 2
     },
     {
-        question: "Which of the following allows an element to lock to an area on the page?",
-        choice1: " affix",
-        choice2: "alert",
-        choice3: "popover",
-        choice4: "tooltip",
+        question: " When a user views a page containing a JavaScript program, which machine actually executes the script?",
+        choice1: " The User's machine running a Web browser",
+        choice2: " The Web server",
+        choice3: "A central machine deep within Netscape's corporate offices",
+        choice4: " None of the above",
         answer: 1
     },
     {
-        question: "Which of the following makes the button appear pressed?",
-        choice1: ".btn-link",
-        choice2: ".disabled",
-        choice3: ".active",
-        choice4: ".btn-block",
-        answer: 3
+        question: "______ JavaScript is also called client-side JavaScript.",
+        choice1: " Microsoft",
+        choice2: "Navigator",
+        choice3: "LiveWire",
+        choice4: "Native",
+        answer: 2
     },
     {
-        question: " What adds slides to carousel?",
-        choice1: " .carousel",
-        choice2: " .carousel-inner",
-        choice3: ".item",
-        choice4: ".carousel-indicators",
-        answer: 2
+        question: " What are variables used for in JavaScript Programs?",
+        choice1: "Storing numbers, dates, or other values",
+        choice2: "Varying randomly",
+        choice3: "Causing high-school algebra flashbacks",
+        choice4: "None of the above",
+        answer: 1
+    },
+    {
+        question: "What should appear at the very end of your JavaScript?",
+        choice1: " The </script>",
+        choice2: " The <script>",
+        choice3: "The END statement",
+        choice4: "None of the above",
+        answer: 1
     }
 
 

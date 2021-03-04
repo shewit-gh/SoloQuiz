@@ -22,43 +22,43 @@ let questionCounter = 0;
 
 let questions = [
     {
-        question: "What does HTML stand for?",
-        choice1: "Home Tool Markup Language",
-        choice2: " Hyper Text Markup Language",
-        choice3: " Hyperlinks and Text Markup Language",
-        choice4: "How To Make Language",
-        answer: 2
-    },
-    {
-        question: "Choose the correct HTML element for the largest heading?",
-        choice1: "<head>",
-        choice2: "<heading>",
-        choice3: "<h6>",
-        choice4: "<h1>",
-        answer: 4
-    },
-    {
-        question: "What is the correct HTML element for inserting a line break?",
-        choice1: "<br>",
-        choice2: "<break>",
-        choice3: "<lb>",
-        choice4: "<bm>",
-        answer: 1
-    },
-    {
-        question: "Choose the correct HTML element to define important text",
-        choice1: "<important>",
-        choice2: "<b>",
-        choice3: "<strong>",
-        choice4: "<i>",
+        question: "How many glyphs does bootstrap include?",
+        choice1: "369",
+        choice2: " 360 ",
+        choice3: " 260",
+        choice4: "100",
         answer: 3
     },
     {
-        question: " what is the difference in an opening tag and a closing tag?",
-        choice1: "Opening tag has a / in front",
-        choice2: "closingtag has a / in front",
-        choice3: "closing tag has a / in at the end",
-        choice4: "ofcourse There is no difference",
+        question: "  Which of the following occurs after fixed positioned is added to the element?",
+        choice1: " affix.bs.affix",
+        choice2: "affixed.bs.affix",
+        choice3: "affix-top.bs.affix",
+        choice4: "affixed-top.bs.affix",
+        answer: 2
+    },
+    {
+        question: "Which of the following allows an element to lock to an area on the page?",
+        choice1: " affix",
+        choice2: "alert",
+        choice3: "popover",
+        choice4: "tooltip",
+        answer: 1
+    },
+    {
+        question: "Which of the following makes the button appear pressed?",
+        choice1: ".btn-link",
+        choice2: ".disabled",
+        choice3: ".active",
+        choice4: ".btn-block",
+        answer: 3
+    },
+    {
+        question: " What adds slides to carousel?",
+        choice1: " .carousel",
+        choice2: " .carousel-inner",
+        choice3: ".item",
+        choice4: ".carousel-indicators",
         answer: 2
     }
 
@@ -81,7 +81,7 @@ function getNewQuestion() {
     if (questions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         // go to the end page
         // return window.location.assign("../js./assets/results.html");
-        return window.location.href = "results.html";
+        return window.location.href = "jsResBegin.html";
     }
     questionCounter++;
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`

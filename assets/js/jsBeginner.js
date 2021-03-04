@@ -22,44 +22,44 @@ let questionCounter = 0;
 
 let questions = [
     {
-        question: "What does HTML stand for?",
-        choice1: "Home Tool Markup Language",
-        choice2: " Hyper Text Markup Language",
-        choice3: " Hyperlinks and Text Markup Language",
-        choice4: "How To Make Language",
+        question: "Why do JavaScript and Java have similar name?",
+        choice1: "JavaScript is a stripped-down version of Java",
+        choice2: " JavaScript's syntax is loosely based on Java's",
+        choice3: " They both originated on the island of Java",
+        choice4: "None of the above",
         answer: 2
     },
     {
-        question: "Choose the correct HTML element for the largest heading?",
-        choice1: "<head>",
-        choice2: "<heading>",
-        choice3: "<h6>",
-        choice4: "<h1>",
-        answer: 4
-    },
-    {
-        question: "What is the correct HTML element for inserting a line break?",
-        choice1: "<br>",
-        choice2: "<break>",
-        choice3: "<lb>",
-        choice4: "<bm>",
+        question: " When a user views a page containing a JavaScript program, which machine actually executes the script?",
+        choice1: " The User's machine running a Web browser",
+        choice2: " The Web server",
+        choice3: "A central machine deep within Netscape's corporate offices",
+        choice4: " None of the above",
         answer: 1
     },
     {
-        question: "Choose the correct HTML element to define important text",
-        choice1: "<important>",
-        choice2: "<b>",
-        choice3: "<strong>",
-        choice4: "<i>",
-        answer: 3
+        question: "______ JavaScript is also called client-side JavaScript.",
+        choice1: " Microsoft",
+        choice2: "Navigator",
+        choice3: "LiveWire",
+        choice4: "Native",
+        answer: 2
     },
     {
-        question: " what is the difference in an opening tag and a closing tag?",
-        choice1: "Opening tag has a / in front",
-        choice2: "closingtag has a / in front",
-        choice3: "closing tag has a / in at the end",
-        choice4: "ofcourse There is no difference",
-        answer: 2
+        question: " What are variables used for in JavaScript Programs?",
+        choice1: "Storing numbers, dates, or other values",
+        choice2: "Varying randomly",
+        choice3: "Causing high-school algebra flashbacks",
+        choice4: "None of the above",
+        answer: 1
+    },
+    {
+        question: "What should appear at the very end of your JavaScript?",
+        choice1: " The </script>",
+        choice2: " The <script>",
+        choice3: "The END statement",
+        choice4: "None of the above",
+        answer: 1
     }
 
 
@@ -81,7 +81,7 @@ function getNewQuestion() {
     if (questions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         // go to the end page
         // return window.location.assign("../js./assets/results.html");
-        return window.location.href = "results.html";
+        return window.location.href = "jsResBegin.html";
     }
     questionCounter++;
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`
